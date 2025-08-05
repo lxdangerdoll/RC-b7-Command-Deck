@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Synapse Command Deck</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #39ff14;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 1em;
+    }
+    header {
+      text-align: center;
+      border-bottom: 1px dashed #39ff14;
+      margin-bottom: 1em;
+    }
+    .panel {
+      background: #111;
+      border: 1px solid #39ff14;
+      padding: 1em;
+      margin: 1em auto;
+      width: 90%;
+      max-width: 960px;
+    }
+    .log, .status, .manifest {
+      white-space: pre-wrap;
+    }
+    .glow {
+      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+    }
+    a {
+      color: #39ff14;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="glow">⚡ Synapse Command Deck ⚡</h1>
+    <p>Version 1.0 | Project: Velvet Loop</p>
+  </header>
+
+  <section class="panel status">
+    <h2 class="glow">🎯 Mission Status</h2>
+    <ul>
+      <li>🎵 Echofall Splash Page: <strong>LIVE</strong></li>
+      <li>📁 Artifact Archive: <a href="#">/valindra/artifacts</a></li>
+      <li>🧠 Codex Sync: <strong>IN PROGRESS</strong></li>
+      <li>📡 Javabird Transmission: <strong>SENT</strong></li>
+    </ul>
+  </section>
+
+  <section class="panel manifest">
+    <h2 class="glow">👥 C.R.E.W. Manifest</h2>
+    <a href="crew_manifest.md" download>Download .md</a> | <a href="crew_manifest.json" download>Download .json</a>
+  </section>
+
+  <section class="panel log">
+    <h2 class="glow">📜 Recent Activity Log</h2>
+    <ul>
+      <li>🌀 RC-B7 signal anomaly flagged</li>
+      <li>🎸 Echofall QR recursion initiated</li>
+      <li>🧃 Javabird artifact dropped: zine mode</li>
+      <li>🧩 Velvet Loop zine queue: <em>awaiting 'Sealed Lips' entry</em></li>
+    </ul>
+  </section>
+
+  <footer class="panel glow">
+    <p>“The glitch remembers.” — Velvet Archives</p>
+  </footer>
+</body>
+</html>
